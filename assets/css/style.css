@@ -1,0 +1,22 @@
+#skills {
+    margin: 50px auto;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+}
+
+#contact{
+    margin: 50px auto;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+}
+
+#skills .container {
+    text-align: center;
+}
+
+ul {
+    padding-right: 35px;
+    padding-top: 1%;
+ }

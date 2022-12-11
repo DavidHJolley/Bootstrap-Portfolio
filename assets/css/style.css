@@ -1,0 +1,139 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+@media only screen and (max-width: 575px) {
+    /* CSS styles for mobile devices go here */
+  
+    /* Make images and text responsive */
+    .jumbotron img{
+        border-radius: 30px;
+        border: 1px solid black;
+        padding: 5px;
+        width: 50%;
+      }
+
+    #work img{
+        height: 100px;
+    }
+  
+    /* Add some padding to the images to prevent overlapping with text */
+
+    .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    
+}
+
+@media (min-width:575px) and (max-width:991px) {
+    .jumbotron img{
+        border-radius: 30px;
+        border: 1px solid black;
+        padding: 5px;
+        width: 100%;
+      }
+    .row{
+        display: flex;
+        flex-direction: column;
+        padding-right: 10%;
+        align-items: center;
+    }
+    .card{
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    
+  
+}​
+
+#skills {
+    margin: 50px auto;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+#skills h2{
+    padding-top: 5%;
+    text-align: center;
+}
+
+#contact{
+    margin: 50px auto;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+#skills .container {
+    text-align: center;
+}
+
+#aboutMe{
+    margin: 50px auto;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+#aboutMe .container{
+    text-align: center;
+}
+
+#skills ul {
+    padding-right: 35px;
+    padding-top: 1%;
+    text-align: center;
+ }
+
+ #work h2{
+    padding-top: 5%;
+    text-align: center;
+    padding-bottom: 2%;
+ }
+
+ .jumbotron {
+    background-color: transparent;
+  }
+
+  .jumbotron img{
+    border-radius: 30px;
+    border: 1px solid black;
+    padding: 5px;
+    width: 300px;
+  }
+
+ .background {
+    background-image: linear-gradient(to right top, #7d277d, #b12367, #cf3f49, #d66a27, #c79600);
+    }
+
+.card:hover{
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    box-shadow: 7px 15px 10px rgb(0 0 0 / 0.15);
+}
+
+#animation{
+    box-shadow: 10px 10px 30px 2px #000000d0;
+    transition: transform .2s; /* Animation */
+}
+
+#work a{
+    text-decoration: none; 
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+
+#work img{
+    height: 200px;
+}

@@ -20,11 +20,11 @@ This is a developer portfolio that showcases my skills and projects. It follows 
 
 ## Screenshot
 
-![screenshot of webpage](./images/screenshot.png)
+![screenshot of webpage](./assets/images/screenshot.png)
 
 ## Link
 
-
+https://davidhjolley.github.io/Bootstrap-Portfolio
 
 ## License
 

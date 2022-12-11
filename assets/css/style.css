@@ -10,7 +10,7 @@ html {
         border-radius: 30px;
         border: 1px solid black;
         padding: 5px;
-        max-width: 50%;
+        width: 50%;
       }
 
     #work img{
@@ -36,7 +36,7 @@ html {
         border-radius: 30px;
         border: 1px solid black;
         padding: 5px;
-        max-width: 100%;
+        width: 100%;
       }
     .row{
         display: flex;
